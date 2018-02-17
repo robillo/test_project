@@ -30,9 +30,9 @@ internal class WorldListAdapter(private val mList: List<AllDetails.Worldpopulati
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: WorldHolder, position: Int) {
 
-        holder.rank.text = Integer.toString(mList!![position].rank)
-        holder.country.text = mList[position].country
-        holder.population.text = mList[position].population
+        holder.rank.text = "Rank: " + Integer.toString(mList!![position].rank)
+        holder.country.text = "Country: " + mList[position].country
+        holder.population.text = "Population: " + mList[position].population
         Glide.with(parentContext).load(mList[position].flag).fitCenter().into(holder.flag)
 
         holder.itemView.setOnClickListener { (mContext as MainActivity).addFullScreenFragment(mList[position].flag) }

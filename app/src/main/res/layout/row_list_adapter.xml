@@ -26,7 +26,7 @@
                 android:layout_height="match_parent"
                 android:contentDescription="@string/flag"
                 android:id="@+id/flag"
-                android:background="@color/colorPrimaryDark">
+                android:background="@color/gray">
 
             </ImageView>
 
@@ -42,8 +42,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 tools:text="Rank: 1"
-                android:textColor="@color/colorPrimary"
-                android:textStyle="bold"
+                android:textColor="@color/grayDark"
+                android:fontFamily="sans-serif"
                 android:maxLines="1"
                 android:textSize="15sp"
                 android:gravity="start"
@@ -58,8 +58,8 @@
                 android:layout_width="match_parent"
                 tools:text="Country: China"
                 android:maxLines="2"
-                android:textColor="@color/colorPrimary"
-                android:textStyle="bold"
+                android:textColor="@color/grayDarker"
+                android:fontFamily="sans-serif"
                 android:textSize="18sp"
                 android:gravity="start"
                 android:paddingLeft="10sp"
@@ -73,8 +73,8 @@
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
                 tools:text="Population: 1,354,040,000"
-                android:textColor="@color/colorPrimary"
-                android:textStyle="bold"
+                android:textColor="@color/grayDarker"
+                android:fontFamily="sans-serif"
                 android:textSize="18sp"
                 android:gravity="start"
                 android:paddingLeft="10sp"
@@ -90,7 +90,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="3sp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/gray"
         tools:ignore="ContentDescription,SmallSp" />
 
 </LinearLayout>
