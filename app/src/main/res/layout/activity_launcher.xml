@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.robillo.test_project.view.launcher.LauncherActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/part1"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/part_one"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4sp"
+        android:background="@color/black"
+        tools:ignore="ContentDescription,SmallSp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/part2"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/part_two"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="4sp"
+        android:background="@color/black"
+        tools:ignore="ContentDescription,SmallSp" />
+
+</LinearLayout>
